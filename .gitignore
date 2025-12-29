@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+myenv/
+
+# Environment variable dosyası
+.env
+
+# MacOS veya diğer OS spesifik dosyalar
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode / PyCharm / IDE klasörleri (opsiyonel)
+.vscode/
+.idea/
+
+# Log dosyaları (opsiyonel)
+*.log
+
+# Migrations klasörlerini dahil etmek veya etmemek projenizin yapısına bağlıdır.
+# Eğer framework (Flask, Django vb.) migration dosyalarını takip etmek istiyorsa
+# burayı yorum satırı yapabilirsiniz. Aksi halde devre dışı bırakabilirsiniz.
+
+# İstemediğiniz diğer klasörler
+matlab/
